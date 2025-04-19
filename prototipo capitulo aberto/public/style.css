@@ -530,9 +530,57 @@ footer {
   filter: invert(39%) sepia(95%) saturate(7471%) hue-rotate(353deg) brightness(101%) contrast(135%);
 }
 
+.voltar-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: right;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-voltar:hover {
+  background-color: #0095cc;
+}
+
 @media (max-width: 768px) {
   .livros-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* TEMPORÁRIO */
+.em-breve-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+.em-breve-mensagem {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.em-breve-mensagem h2 {
+  color: #2C3E50;
+  margin-bottom: 1rem;
+}
+
+.em-breve-mensagem p {
+  color: #666;
+  margin-bottom: 1.5rem;
 }
 

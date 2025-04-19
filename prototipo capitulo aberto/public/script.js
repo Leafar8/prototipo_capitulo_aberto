@@ -1,13 +1,17 @@
-//Redirecionamento para a pagina inicial
+//Redirecionamento para o catalogo
+function redirectToCatalog() {
+  window.location.href = 'catalogo.html';
+}
+
+//Redirecionamento para a pagina principal
 function redirectToHome() {
   window.location.href = 'index.html';
 }
-
-document.getElementById('explorarBtn').addEventListener('click', redirectToHome);
+document.getElementById('explorarBtn').addEventListener('click', redirectToCatalog);
 
 //Redirecionamento do ver mais
 function redirectToBook() {
-  window.location.href = 'livro.html';
+  window.location.href = 'catalogo.html';
 }
 document.getElementById('livroBtn').addEventListener('click', redirectToBook);
 
