@@ -95,3 +95,18 @@ document.getElementById('registerForm').addEventListener('submit', (e) => {
   // Adicione aqui a lógica de registro
   console.log('Register submit');
 });
+
+function openPDF(pdfPath) {
+  window.open(pdfPath, '_blank', `
+    toolbar=no,
+    location=no,
+    status=no,
+    menubar=no,
+    scrollbars=yes,
+    resizable=yes,
+    width=800,
+    height=600
+    `);
+}
+
+

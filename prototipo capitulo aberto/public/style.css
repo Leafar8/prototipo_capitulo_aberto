@@ -553,17 +553,22 @@ footer {
 }
 
 .btn-ler {
-  padding: 0.5rem 1rem;
-  background: #007bff;
+  background-color: #00bfff;
   color: white;
   border: none;
+  padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background-color 0.2s;
 }
 
 .btn-ler:hover {
-  background: #0056b3;
+  background-color: #0095cc;
+}
+
+.btn-ler:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 
 .btn-favorito {
